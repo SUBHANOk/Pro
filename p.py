@@ -14,13 +14,13 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from Pro_64 import 64
+        from Pro_64 import m
 
         m()
 
 elif bit == "32bit":
 
-        from Pro_32 import 32
+        from Pro_32 import m
 
         m()
 
